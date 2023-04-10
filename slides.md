@@ -32,7 +32,7 @@ transition: slide-left
 
 # Los impactos medioambientales
 
-<div class="p-3 mt-10 border border-black rounded">
+<div class="p-3 mt-10 mb-8 text-white bg-green-500 rounded shadow-md shadow-black">
   Los impactos medioambientales son modificaciones que causa una acción humana sobre el medioambiente.
 </div>
 
@@ -47,7 +47,7 @@ transition: slide-left
 ---
 
 # La contaminación
-<div class="p-3 mt-10 border border-black rounded">
+<div class="p-3 mt-10 mb-8 text-white bg-green-500 rounded shadow-md shadow-black">
   La contaminación es la introducción de efectos nocivos al medio ambiente. Al tratarse de un cambio que introduce el ser humano en la mayoría de los casos, la contaminación es considerada un tipo de impacto medioambiental.  
 </div>
 
@@ -87,7 +87,7 @@ transition: slide-left
 ---
 
 # Los residuos
-<div class="p-3 mt-10 border border-black rounded">
+<div class="p-3 mt-10 mb-8 text-white bg-green-500 rounded shadow-md shadow-black">
   Un residuo es todo material procedente de actividades humanas que no tienen valor suficiente para retenerlo, por lo que se desecha.
 </div>
 
@@ -108,13 +108,13 @@ layout: two-cols
 # Agotamiento de los recursos
 
 <div class="text-sm">
-  <div class="p-3 mt-10 border border-black rounded">
+  <div class="p-3 mt-10 mb-8 text-white bg-green-500 rounded shadow-md shadow-black">
     El agotamiento de los recursos se debe a la sobreexplotación, es decir, la tasa de extracción es mucho mayor que la de regeneración.
   </div>
   
   Los efectos de la sobreexplotación son múltiples: escaseza de recursos, deforestación, pérdida de la biodiversidad... y la desertificación.
   
-  <div class="p-3 mt-10 border border-black rounded">
+  <div class="p-3 mt-10 mb-8 text-white bg-green-500 rounded shadow-md shadow-black">
     La desertificación es la creación de zonas áridas a partir de aquellas que antes eran fértiles, debido a la pérdida excesiva de masa forestal y agua.
   </div>
 </div>
@@ -132,8 +132,8 @@ transition: slide-left
 
 # La deterioración de los ecosistemas
 
-<div class="p-3 mt-10 border border-black rounded">
-  <p>La rápida deterioración que están sufriendos los ecosistemas actualmente se debe al inmenso impacto ambiental de la sociedad actual.</p>
+<div class="p-3 mt-10 mb-8 text-white bg-green-500 rounded shadow-md shadow-black">
+  La rápida deterioración que están sufriendos los ecosistemas actualmente se debe al inmenso impacto ambiental de la sociedad actual.
 </div>
 
 Debido la industrialización y al aumento de población, los cambios que introducimos a los ecosistemas son tan profundos que superan a los mecanismos de autorregulación.
@@ -150,7 +150,7 @@ layout: two-cols
 
 <h2 class="text-[#5d8392] text-md">Desenvolvimiento sostenible</h2>
 
-<div class="p-3 mt-10 text-xs border border-black rounded">
+<div class="p-3 mt-10 mb-2 text-xs text-white bg-green-500 rounded shadow-md shadow-black">
   El desenvolvimiento sostenible pretende mantener las necesidades de la generación actual sin comprometer el futuro de la especie.
 </div>
 

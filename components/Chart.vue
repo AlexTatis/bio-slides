@@ -79,13 +79,13 @@
             datasets: [
                 {
                     label: `CO de ${selected.value} (Marzo de 2023)`,
-                    backgroundColor: '#93bd20',
+                    backgroundColor: '#ff9212',
                     // use the average values as data
                     data: (coData.value ?? []).map(x => x.average),
-                },
-                {
+                  },
+                  {
                     label: `CO de España`,
-                    backgroundColor: '#f3bd20',
+                    backgroundColor: '#22c55e',
                     // use the average values as data
                     data: (spainData.value ?? []).map(x => x.average),
                 }
