@@ -42,6 +42,8 @@
     type resData = { average: number, end: string, start: string }[]
 
     const { data: coData } =  await useFetch(coUrl, { refetch: true }).json<resData>()
+    const { data: spainData } =  await useFetch('https://api.v2.emissions-api.org/api/v2/carbonmonoxide/average.json?country=ES&begin=2023-03-01&end=2023-04-01').json<resData>()
+  
     //const { data: o3Data } =  await useFetch(o3Url, { refetch: true }).json<resData>()
 
     
@@ -81,12 +83,12 @@
                     // use the average values as data
                     data: (coData.value ?? []).map(x => x.average),
                 },
-                /* {
-                    label: `O3 de ${selected.value}`,
+                {
+                    label: `CO de España`,
                     backgroundColor: '#f3bd20',
                     // use the average values as data
-                    data: (o3Data.value ?? []).map(x => x.average),
-                } */
+                    data: (spainData.value ?? []).map(x => x.average),
+                }
             ]
         }
     }) 
