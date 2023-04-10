@@ -1,0 +1,25 @@
+{
+  "name": "ecosistemas-y-el-ser-humano",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.12",
+    "@heroicons/vue": "^2.0.17",
+    "@slidev/cli": "^0.40.6",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "@types/geojson": "^7946.0.10",
+    "@vueuse/core": "^9.13.0",
+    "chart.js": "^4.2.1",
+    "vue-chartjs": "^5.2.0"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.50",
+    "@types/leaflet": "^1.9.3",
+    "leaflet": "^1.9.3"
+  }
+}
